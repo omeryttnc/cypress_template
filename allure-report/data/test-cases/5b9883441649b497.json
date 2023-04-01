@@ -1,0 +1,246 @@
+{
+  "uid" : "5b9883441649b497",
+  "name" : "Success Login",
+  "fullName" : "Success Login",
+  "historyId" : "7d2e7232b9fcfd80e4011b309f5127de",
+  "time" : {
+    "start" : 1680313030878,
+    "stop" : 1680313034432,
+    "duration" : 3554
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given A web browser is at the saucelabs login page - tag demo",
+      "time" : {
+        "start" : 1680313030962,
+        "stop" : 1680313032232,
+        "duration" : 1270
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1680313031001,
+          "stop" : 1680313032218,
+          "duration" : 1217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "When A user enters the username \"standard_user\", the password \"secret_sauce\", and clicks on the login button - tag demo",
+      "time" : {
+        "start" : 1680313032232,
+        "stop" : 1680313034334,
+        "duration" : 2102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #user-name",
+        "time" : {
+          "start" : 1680313032288,
+          "stop" : 1680313032411,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type standard_user",
+        "time" : {
+          "start" : 1680313032411,
+          "stop" : 1680313033219,
+          "duration" : 808
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get #password",
+        "time" : {
+          "start" : 1680313033219,
+          "stop" : 1680313033236,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type secret_sauce",
+        "time" : {
+          "start" : 1680313033236,
+          "stop" : 1680313033763,
+          "duration" : 527
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get #login-button",
+        "time" : {
+          "start" : 1680313033763,
+          "stop" : 1680313033781,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1680313033781,
+          "stop" : 1680313034323,
+          "duration" : 542
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.saucedemo.com/inventory.html",
+        "time" : {
+          "start" : 1680313034323,
+          "stop" : 1680313034323,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Then the url will contains the inventory subdirectory - tag demo",
+      "time" : {
+        "start" : 1680313034334,
+        "stop" : 1680313034430,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "assert expected **https://www.saucedemo.com/inventory.html** to include **/inventory.html**",
+        "time" : {
+          "start" : 1680313034355,
+          "stop" : 1680313034426,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1680313034426,
+          "stop" : 1680313034426,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login page with Tags"
+  }, {
+    "name" : "feature",
+    "value" : "Login page with Tags"
+  }, {
+    "name" : "tag",
+    "value" : "mobile"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "mobile" ]
+  },
+  "source" : "5b9883441649b497.json",
+  "parameterValues" : [ ]
+}

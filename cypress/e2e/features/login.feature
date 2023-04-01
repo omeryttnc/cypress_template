@@ -20,3 +20,6 @@ Feature: Login page
             | username      | password     |
             | standard_user | testPassword |
         Then The error message "Epic sadface: Username and password do not match any user in this service" is displayed
+
+    Scenario: deneme 1
+    Then blok olustu
