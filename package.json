@@ -23,6 +23,12 @@
     "@shelex/cypress-allure-plugin": "^2.34.0",
     "cypress": "^12.0.2",
     "esbuild": "^0.16.4",
-    "multiple-cucumber-html-reporter": "^3.0.1"
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-plugin-api": "^2.10.0",
+    "cypress-xpath": "^2.0.1",
+    "faker": "^5.5.3",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1"
   }
 }
