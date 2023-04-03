@@ -53,3 +53,8 @@ reports
 allure-report
 allure-results
 mochawesome-report
+
+
+# screenshots/videos
+cypress/screenshots
+cypress/videos
