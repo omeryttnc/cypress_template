@@ -50,3 +50,6 @@ Thumbs.db
 
 # Cucumber Report
 reports
+allure-report
+allure-results
+mochawesome-report
